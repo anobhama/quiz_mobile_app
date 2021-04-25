@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.example.quiz" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="29"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:debuggable="true" android:testOnly="true" android:allowBackup="true" android:supportsRtl="true" android:extractNativeLibs="false" android:roundIcon="@mipmap/quiz" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="com.example.quiz.RpdsActivity"/>
+        <activity android:name="com.example.quiz.RpythonActivity"/>
+        <activity android:name="com.example.quiz.RosActivity"/>
+        <activity android:name="com.example.quiz.RcnActivity"/>
+        <activity android:name="com.example.quiz.RdbmsActivity"/>
+        <activity android:name="com.example.quiz.PdsActivity"/>
+        <activity android:name="com.example.quiz.PythonActivity"/>
+        <activity android:name="com.example.quiz.OsActivity"/>
+        <activity android:name="com.example.quiz.CnActivity"/>
+        <activity android:name="com.example.quiz.DbmsActivity"/>
+        <activity android:name="com.example.quiz.RActivity"/>
+        <activity android:name="com.example.quiz.QActivity"/>
+        <activity android:name="com.example.quiz.TopicActivity"/>
+        <activity android:name="com.example.quiz.MainActivity"/>
+        <activity android:name="com.example.quiz.FlashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
